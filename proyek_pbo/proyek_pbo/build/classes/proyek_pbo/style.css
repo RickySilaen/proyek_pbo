@@ -1,0 +1,66 @@
+/* style.css */
+
+/* Gaya untuk seluruh aplikasi */
+.root {
+    -fx-background-color: #f0f0f0;
+    -fx-font-family: "Arial";
+}
+
+/* Gaya untuk label */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+
+/* Gaya untuk text field */
+.text-field, .text-area {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+}
+
+/* Gaya untuk tombol */
+.button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+.button:pressed {
+    -fx-background-color: #004085;
+}
+
+/* Gaya untuk area teks */
+.text-area {
+    -fx-pref-height: 200px;
+    -fx-background-color: #e9ecef;
+    -fx-border-color: #ced4da;
+    -fx-border-radius: 5px;
+}
+
+/* Gaya untuk VBox dan HBox */
+.hbox {
+    -fx-alignment: center;
+    -fx-spacing: 10px;
+}
+
+.vbox {
+    -fx-alignment: center;
+    -fx-spacing: 15px;
+}
+
+/* Gaya untuk alert atau pesan kesalahan */
+.alert {
+    -fx-background-color: #f8d7da;
+    -fx-text-fill: #721c24;
+    -fx-padding: 10px;
+    -fx-border-color: #f5c6cb;
+    -fx-border-radius: 5px;
+}
